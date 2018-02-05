@@ -35,7 +35,7 @@ public class Lab3 {
                 // legs
                 g.setColor(new Color(150, 75, 20));
                 for (int i = 0; i < 4; i++) {
-                    g.fillRect((width - 25) / 2 - 35 + i * 25, (height - 50) / 2 + 30, 15, 50);
+                    g.fillRect((width - 25) / 2 - 35 + i * 25, (height - 50) / 2 + 30, 15, 50 - 2 * i);
                 }
                 // body
                 g.setColor(new Color(139, 69, 19));
@@ -55,6 +55,6 @@ public class Lab3 {
     }
 
     public static void main(String[] args) {
-        new Lab3(400, 400);
+        new Lab3(800, 800);
     }
 }
