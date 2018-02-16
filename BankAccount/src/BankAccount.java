@@ -8,21 +8,28 @@ import java.awt.event.ActionListener;
  * BankAccount stuff
  */
 public class BankAccount implements ActionListener {
-    private final int COMPOUND_TIME = 1000; // 1 second
+    private final int COMPOUND_TIME = 2 * 1000; // 2 seconds
+
+    private String username;
+    private String password;
 
     private double balance;
     private double rate;
 
     private Timer timer = new Timer(COMPOUND_TIME, this);
 
-    public BankAccount(double balance, double rate) {
+    public BankAccount(String username, String password, double balance, double rate) {
+        this.username = username;
+        this.password = password;
+
         this.balance = balance;
         this.rate = rate;
+
         timer.start();
     }
 
     public BankAccount() {
-        this(0, 0);
+        this("username", "password", 0, 0);
     }
 
     /**
@@ -81,7 +88,9 @@ public class BankAccount implements ActionListener {
     @Override
     public String toString() {
         return "BankAccount{" +
-                "balance=" + balance +
+                "username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", balance=" + balance +
                 ", rate=" + rate +
                 '}';
     }

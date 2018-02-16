@@ -17,12 +17,13 @@ public class Lab3 {
         component = new JComponent() {
             @Override
             protected void paintComponent(Graphics g) {
+                ((Graphics2D) g).setRenderingHints(new RenderingHints(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON));
                 // background
                 g.setColor(Color.CYAN);
                 g.fillRect(0, 0, width, height / 3);
                 g.setColor(Color.YELLOW);
-                g.fillOval(-50, -50, 100, 100);
-                for (int i = 0; i < 10; i++) {
+                g.fillOval(-50, -50, 200, 200);
+                for (int i = 0; i < 20; i++) {
                     g.setColor(Color.WHITE);
                     int x = (int) (Math.random() * (width - 25));
                     int y = (int) (Math.random() * (height - 150) / 3);
@@ -55,6 +56,6 @@ public class Lab3 {
     }
 
     public static void main(String[] args) {
-        new Lab3(800, 800);
+        new Lab3(1920, 1080);
     }
 }

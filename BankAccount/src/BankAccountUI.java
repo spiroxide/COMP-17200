@@ -10,10 +10,12 @@ import java.awt.event.ActionListener;
  */
 public class BankAccountUI implements ActionListener {
 
-    BankAccount bankAccount;
+    private BankAccount bankAccount;
 
-    JFrame frame = new JFrame("BankAccountUI");
-    // add buttons and shit
+    private JFrame frame = new JFrame("BankAccountUI");
+    private JTextField usernameField = new JTextField();
+    private JPasswordField passwordField = new JPasswordField();
+    private JButton login = new JButton("Login");
 
     public BankAccountUI(BankAccount bankAccount) {
         this.bankAccount = bankAccount;
@@ -21,6 +23,15 @@ public class BankAccountUI implements ActionListener {
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setLayout(new BorderLayout());
         // initialize buttons and shit
+        usernameField.addActionListener(this);
+        frame.add(usernameField, BorderLayout.NORTH);
+
+        passwordField.addActionListener(this);
+        frame.add(passwordField, BorderLayout.CENTER);
+
+        login.addActionListener(this);
+        frame.add(login, BorderLayout.SOUTH);
+
         frame.pack();
         frame.setResizable(false);
         frame.setVisible(true);
@@ -54,10 +65,18 @@ public class BankAccountUI implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-
+        if (e.getSource().equals(usernameField)) {
+            System.out.println(e.getActionCommand());
+        }
+        if (e.getSource().equals(passwordField)) {
+            System.out.println(e.getActionCommand());
+        }
+        if (e.getSource().equals(login)) {
+            System.out.println(e.getActionCommand());
+        }
     }
 
     public static void main(String[] args) {
-        BankAccountUI bankAccountUI = new BankAccountUI(new BankAccount(100, 1));
+        new BankAccountUI(new BankAccount("erich", "passw0rd", 100, .01));
     }
 }
