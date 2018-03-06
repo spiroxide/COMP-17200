@@ -19,8 +19,6 @@
               <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2333#2334#0" expanded="true" />
-                <element signature="e#2369#2370#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,7 +66,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,13 +83,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab4" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -269,8 +267,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2333#2334#0" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -281,8 +277,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2333#2334#0" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -293,8 +287,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2333#2334#0" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -305,8 +297,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2333#2334#0" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -317,8 +307,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2333#2334#0" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -329,8 +317,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2333#2334#0" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -341,8 +327,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2333#2334#0" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -353,8 +337,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2333#2334#0" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -365,8 +347,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2333#2334#0" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -377,8 +357,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2333#2334#0" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -389,8 +367,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2333#2334#0" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -401,8 +377,16 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2333#2334#0" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -413,8 +397,6 @@
           <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2333#2334#0" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
           </folding>
         </state>
       </provider>
