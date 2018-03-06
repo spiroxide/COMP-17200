@@ -48,23 +48,23 @@ public class TripCostCalculator {
         System.out.println("Expected result: 6.5");
         System.out.println("Actual result: " + tcc2.costToDrive());
         System.out.println(tcc2.carOrTrain(tcc2.costToDrive()));
-//
-//        System.out.println();
-//
-//        Scanner input = new Scanner(System.in);
-//        System.out.print("Enter the distance from work in miles: ");
-//        double distance = input.nextDouble();
-//        System.out.print("Enter the fuel efficiency of your car in mpg: ");
-//        double mpg = input.nextDouble();
-//        System.out.print("Enter the maintenance cost of your car per mile: ");
-//        double mpm = input.nextDouble();
-//        System.out.print("Enter the cost of gas in dollars per gallon: ");
-//        double gasCost = input.nextDouble();
-//        System.out.print("Enter the cost of a train ticket: ");
-//        double ticketCost = input.nextDouble();
-//        input.close();
-//        TripCostCalculator tripCostCalculator = new TripCostCalculator(distance, mpg, mpm, gasCost, ticketCost);
-//        System.out.println("Cost to drive: " + tripCostCalculator.costToDrive());
-//        System.out.println(tripCostCalculator.carOrTrain(tripCostCalculator.costToDrive()));
+
+        System.out.println();
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the distance from work in miles: ");
+        double distance = input.nextDouble();
+        System.out.print("Enter the fuel efficiency of your car in mpg: ");
+        double mpg = input.nextDouble();
+        System.out.print("Enter the maintenance cost of your car per mile: ");
+        double mpm = input.nextDouble();
+        System.out.print("Enter the cost of gas in dollars per gallon: ");
+        double gasCost = input.nextDouble();
+        System.out.print("Enter the cost of a train ticket: ");
+        double ticketCost = input.nextDouble();
+        input.close();
+        TripCostCalculator tripCostCalculator = new TripCostCalculator(distance, mpg, mpm, gasCost, ticketCost);
+        System.out.println("Cost to drive: " + tripCostCalculator.costToDrive());
+        System.out.println(tripCostCalculator.carOrTrain(tripCostCalculator.costToDrive()));
     }
 }
